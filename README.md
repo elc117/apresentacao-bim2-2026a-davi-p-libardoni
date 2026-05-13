@@ -95,3 +95,8 @@ Por conta de uma propriedade do paradigma orientado a objetos chamada Polimorfis
 
 2. Classe `ArrayList<>`:
 A classe ArrayList é uma implementação de uma lista de tipo genérico. A notação `<>` indica que os elementos da lista pertencerão ao tipo que for inserido dentro do diamante, como por exemplo `ArrayList<String>`. Essa classe tem métodos implementados como `.remove()`, que é capaz de remover um elemento da lista sem precisar saber seu índice, apenas por seu valor, com um retorno booleano True se o item existia na lista, e False se não havia nenhum item correspondente.
+
+## Diagrama UML:
+Como a proposta era uma classe simples, o diagrama acabou ficando bem pequeno por consequência.
+
+<img width="301" height="371" alt="image" src="https://github.com/user-attachments/assets/0c56c4b5-8113-4ca9-a761-f3715ed8cb6c" />
