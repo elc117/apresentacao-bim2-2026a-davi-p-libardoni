@@ -92,3 +92,6 @@ class Sanduiche{
 1. Dois construtores:
 `public Sanduiche(String nome, Double preco)` e `public Sanduiche(String nome, ArrayList<String> ingredientes, Double preco, Double peso, boolean vegetariano)`
 Por conta de uma propriedade do paradigma orientado a objetos chamada Polimorfismo, a linguagem Java permite a criação de múltiplas funções com o mesmo nome, desde que tenham o mesmo tipo de retorno, mas que se comportam de maneiras diferentes de acordo com o número de parâmetros.
+
+2. Classe `ArrayList<>`:
+A classe ArrayList é uma implementação de uma lista de tipo genérico. A notação `<>` indica que os elementos da lista pertencerão ao tipo que for inserido dentro do diamante, como por exemplo `ArrayList<String>`. Essa classe tem métodos implementados como `.remove()`, que é capaz de remover um elemento da lista sem precisar saber seu índice, apenas por seu valor, com um retorno booleano True se o item existia na lista, e False se não havia nenhum item correspondente.
